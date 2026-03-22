@@ -1,0 +1,22 @@
+# Lazy.nvim plugins (auto-installed)
+lazy-lock.json
+
+# Plugin install directory
+plugin/
+pack/
+start/
+opt/
+
+# Mason binaries & packages
+mason/
+
+# Swap / backup / undo files
+*.swp
+*.swo
+*~
+
+# OS junk
+.DS_Store
+
+# Logs
+*.log
