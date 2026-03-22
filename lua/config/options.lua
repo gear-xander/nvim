@@ -11,7 +11,10 @@ vim.opt.termguicolors = true
 
 vim.filetype.add({
 	extension = {
-		tf = "terraform",
 		tfvars = "terraform",
+		hcl = "hcl",
+	},
+	pattern = {
+		[".*%.terraform%.tfvars"] = "terraform",
 	},
 })

@@ -12,7 +12,9 @@ return {
 
 		vim.lsp.config("pyright", {})
 		vim.lsp.config("bashls", {})
-		vim.lsp.config("terraformls", {})
+		vim.lsp.config("terraformls", {
+			filetypes = { "terraform" },
+		})
 
 		vim.lsp.enable("lua_ls")
 		vim.lsp.enable("pyright")
