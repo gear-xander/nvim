@@ -20,4 +20,5 @@ require("lazy").setup({
 	require("plugins.git"),
 	require("plugins.nvim-tree"),
 	require("plugins.theme"),
+	require("plugins.telescope"),
 })
